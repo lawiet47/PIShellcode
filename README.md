@@ -11,9 +11,9 @@ Look-into: merging two sections into one.
 
 #### Maximum Optimized Command Line: `/GS- /TC /GL /W4 /Zc:inline /Fa"x64\Release\" /nologo /Zl /Fo"x64\Release\" /FA /Os /diagnostics:column` -> generates data segment offsets to `.rdata`
 
-![](png/max_optimized_exe.png)
+![](png/max_optimized_exe.PNG)
 
 #### Custom Optimized Command Line: `/GS- /TC /GL /W4 /O1 /Zc:inline /Fa"x64\Release\" /nologo /Zl /Fo"x64\Release\" /FA /Os /diagnostics:column` -> generates PIC.
 
 
-![](png/custom_optimized_exe.png)
+![](png/custom_optimized_exe.PNG)
