@@ -9,10 +9,10 @@
 
 param (
     [Parameter(Mandatory=$true)]
-    [string] $shellcode_file, #First File
+    [string] $shellcode_file, #Input File
     [Parameter(Mandatory=$true)]
     [string] $out #Output File
-) #end param
+)
 
  
 
